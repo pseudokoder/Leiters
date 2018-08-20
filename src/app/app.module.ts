@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material';
 import { FamilyModule } from './family/family.module';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FamilyModule } from './family/family.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FamilyModule
+    FamilyModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
