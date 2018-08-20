@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./member-editor.component.css']
 })
 export class MemberEditorComponent implements OnInit {
+  pageTitle = 'Family Member Editor';
+  member = 'JW';
 
   constructor() { }
 
